@@ -1,0 +1,74 @@
+h1{
+    color:rgb(0, 0, 128);
+}
+div{
+    background-color: rgba(230, 224, 224, 0.9);
+    margin: 0 auto;
+    padding: 1px 0px;;
+    max-width: 70%;
+    
+}
+table {
+    background-color: rgba(230, 224, 224, 0.85);
+    padding: 2% 10% 2% 10%;
+    width: 100%;
+}
+
+fieldset {
+    margin: 2% 15% 5% 15%;
+}
+
+body {
+    color:rgb(0, 0, 128);
+    background-image: url("Brick-wallaper-For-Background-38.jpg");
+    font-size: 20px;
+}
+
+input[type=text],
+input[type=email],
+input[type=number],
+input[type=password],
+textarea,
+select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+textarea {
+    resize: none;
+}
+
+input[type=date] {
+    width: 40%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+#grade {
+    width: 40%;
+}
+
+input[type=submit],button {
+    width: 20%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    background-color: rgb(250, 252, 177);
+}
